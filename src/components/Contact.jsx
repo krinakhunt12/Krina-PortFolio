@@ -123,7 +123,7 @@ const Contact = () => {
               <button 
                 type="submit" 
                 disabled={submitting} 
-                className={`w-full px-8 py-4 rounded-xl text-white font-semibold hover:shadow-xl transition-all duration-300 transform hover-lift ${
+                className={`w-full px-8 py-4 rounded-xl cursor-pointer text-white font-semibold hover:shadow-xl transition-all duration-300 transform hover-lift ${
                   submitting 
                     ? 'bg-gray-400 cursor-not-allowed' 
                     : 'bg-gradient-to-r from-[color:var(--color-primary)] to-[color:var(--color-accent)] hover:from-[color:var(--color-primary)]/90 hover:to-[color:var(--color-accent)]/90 hover:-translate-y-1 hover:scale-105'
